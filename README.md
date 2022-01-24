@@ -1,4 +1,4 @@
-# balancing-oysters
+# Balancing-oysters
 Simulations and evidence to support a 'temporal balancing selection' hypothesis for larval oyster development
 ---
 title: "Exploring how genomic architecture may present as balancing selection"
@@ -7,9 +7,8 @@ date: "1/24/2022"
 output: html_document
 ---
 
-```{r setup, include=FALSE,echo=FALSE}
+```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
-require(tidyverse)
 ```
 
 ##Introduction
