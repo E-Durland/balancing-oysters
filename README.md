@@ -32,8 +32,7 @@ in a pool, changes in the frequency of the 'C' allele reflect the death of indiv
 
 In this scenario, you can have a relative decrease in allele '**C**' early on, due to some of those mutations and then it would actually rise in frequency again as '**G**' allele individuals with the 'geneB**x**' variants die off.  
 
-
-
+The question is, in a 5 x 19 factorial cross how frequent would these genes, alleles and alternate linkages have to be in order to produce these weird 'flip-flop' patterns of allele frequency change.  Lets simulate things to find out:
 
 ```{r}
 
