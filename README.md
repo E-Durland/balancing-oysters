@@ -2,6 +2,7 @@
 # Exploring how genomic architecture may present as balancing selection
 ## Evan Durland
 ### 1/24/2022
+### questions? contact: durlandevan@gmail.com
 
 ## Introduction
 This is a walkthrough of a simulation method to explore how contrasting genomic architectures in oysters may create changes in pooled minor allele frequency (MAF) over larval development.  
@@ -37,7 +38,7 @@ The question is, in a 5 x 19 factorial cross how frequent would these genes, all
 ```{r}
 library(tidyverse)
 # simulate parental genotypes:
-gtyp_parents <- function(af_major, af_hidden, n_male, n_fem, print_parents = "N"){
+gtyp_parents <- function(af_major, af_hidden, n_male, n_fem, print_parents = "N"){ # here we assign 'normal' associations to 'af_major' and 'hidden' mutations to 'af_hidden'
   n_par <- (n_male + n_fem)
   n_hap <-  n_par * 2 #number of haplotypes
   n_A <- ceiling(n_hap * af_major[1]) #number of 'A' alleles
@@ -264,4 +265,4 @@ ggplot(df, aes(time,f_A_est))+
   theme_bw()
 ```
 ![](https://github.com/E-Durland/balancing-oysters/blob/main/example.png)
-So we can see that even at high abundance (MAF ~50%), the overall effect of contrasting linkages is relatively little!
+So we can see that even at high abundance (MAF ~50%), and with a large proportion of alternate linkages (~50%) the overall effect is relatively little!
