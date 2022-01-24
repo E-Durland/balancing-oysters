@@ -1,7 +1,7 @@
 
-# "Exploring how genomic architecture may present as balancing selection"
-## "Evan Durland"
-### "1/24/2022"
+# Exploring how genomic architecture may present as balancing selection
+## Evan Durland
+### 1/24/2022
 
 ## Introduction
 This is a walkthrough of a simulation method to explore how contrasting genomic architectures in oysters may create changes in pooled minor allele frequency (MAF) over larval development.  
