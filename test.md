@@ -1,0 +1,5 @@
+Test sourcing
+
+'''r
+getwd()
+'''
