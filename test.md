@@ -1,5 +1,5 @@
 Test sourcing
 
-''' r
+``` r
 getwd()
-'''
+```
