@@ -7,7 +7,7 @@ date: "1/24/2022"
 output: html_document
 ---
 
-```{r setup, include=FALSE}
+```{r setup, include=FALSE,echo=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 require(tidyverse)
 ```
@@ -17,7 +17,7 @@ This is a walkthrough of a simulation method to explore how contrasting genomic 
 
 Take a scenario when you have a single genetic locus with two alleles (C/G) and it is linked to two genes with developmental importance to oysters:
 
-....geneA....(*C*).....geneB....
+....geneA....(_C_).....geneB....
 
 ....geneA....(*G*).....geneB....
 
