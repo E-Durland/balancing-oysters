@@ -37,4 +37,4 @@ The question is, in a 5 x 19 factorial cross how frequent would these genes, all
 ```{r}
 
 ```
-![](https://github.com/E-Durland/balancing-oysters/example.png)
+![](https://github.com/E-Durland/balancing-oysters/blob/main/example.png)
